@@ -1,5 +1,8 @@
 # Python FastPass for C++ Developers
-
+![Python Version](https://img.shields.io/badge/python-3.10%2B-blue)
+![C++ Bridge](https://img.shields.io/badge/perspective-C%2B%2B%20Logic-orange)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Status](https://img.shields.io/badge/status-active-brightgreen)
 本仓库记录了我从 C++ 背景快速切入 Python 开发的学习笔记与底层思考。
 
 ## 出处与致谢
