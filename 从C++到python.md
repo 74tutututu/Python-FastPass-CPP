@@ -452,7 +452,7 @@ with TemporaryFile() as f:
 - 临时文件、临时目录
 - 自定义需要自动收尾的对象（自己写上下文管理器）
 
-# 三、**C++ 视角思考：**
+## 三、C++ 视角思考：
 
 - **Python 版的 RAII**：`with` 语句的本质就是C++的 **RAII（资源获取即初始化）**。
 
@@ -1166,7 +1166,7 @@ print(i.grunt()) # => "*grunt*"
 - 不需要 `self` 或 `cls`
 - 类、对象都能调用
 
-## 7. `@property` 装饰器(重要)
+## 7. `@property` 装饰器
 
 它让**方法可以像属性一样使用**
 
@@ -1246,7 +1246,7 @@ j.say(j.get_species()) # => "Joel: H. neanderthalensis"
 - 测试代码
 - 防止模块被导入时自动运行
 
-## 11. 完整运行流程（超级清晰）
+## 11. 完整运行流程
 
 ```python
 i = Human("Ian")    # 创建 Ian
